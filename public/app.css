@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1568983527878-8baf5dabbda4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+    font-family: 'Roboto', san-serif;
+    color: rgb(66, 69, 86);
+    text-align: center;
+    /* text-shadow: 0 0.5rem .02rem rgba(0, 0, 0, .5); */
+    height: 100%;
+    background-size: cover;
+    font-weight: 100;
+}
+
+input[type=text] :focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.8);
+}
+
+button {
+    line-height: 2.0;
+    border: none;
+    border: 3px solid white;
+    font-size: 1.9em;
+    color: rgb(66, 69, 86);
+    padding: 5px 30px;
+    background: rgba(255, 255, 255, 1.0);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+h1 {
+    margin: 0;
+    font-size: 500px;
+    line-height: 400px;
+    font-weight: 100;
+
+}
+
+p {
+    margin: 0;
+    font-size: 50px;
+}
+
+.form {
+    line-height: 1.5;
+    border: none;
+    border-bottom: 3px solid #ebebeb;
+    background: transparent;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+
